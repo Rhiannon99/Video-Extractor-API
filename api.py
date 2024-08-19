@@ -32,5 +32,5 @@ def get_tv_streams():
     return jsonify({"m3u8_links": m3u8_links, "subtitles": []})
 
 if __name__ == '__main__':
-    app.run(port=5002, debug=True)
+    app.run(port=5001, debug=True)
 
